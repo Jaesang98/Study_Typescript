@@ -1,9 +1,32 @@
-## 💡 part1-1 카카오가 리액트 냅두고 왜 Vue 쓰는지 알려드림
+## 💡 part1-1 Typescript 필수문법 10분 정리와 설치 셋팅 (Vue, React 포함)
 
-### 🔹 vue
+### 🔹 Typescript란
 
-- Single page Application, Web-app 만들 때 사용
-- 다른 언어들과 문법이 다르지만 쉬움
-- 코드짤 때 방법이 정해져 있음
-- html 렌더링이 빠름 (react보다) - 사실 밀리세컨드 단위임
-- 업데이트 잘됨
+- Javascript + Type문법
+- 에러메시지 퀄리티가 높음
+
+### 🔹 설정 및 실행
+
+- nodejs, vscode 설치
+
+```javascript
+//powershell
+npm install -g typescript
+
+//tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs"
+  }
+}
+
+//powershell
+tsc -w
+```
+
+### 🔹 Typescript 사용
+
+```javascript
+let 문자열: string = "string";
+```
