@@ -1,2 +1,7 @@
-# Study_Typescript
-타입스크립트 공부
+# Study Typescript
+
+> Typescript를 공부하자!
+
+## 📝 공부목록
+
+### 🔹 [코딩애플 강의](https://codingapple.com/)
